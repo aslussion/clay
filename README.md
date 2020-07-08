@@ -1,1 +1,1 @@
-<a href='https://aslussion.github.io/clay/production/'>link</a>
+<a href='https://aslussion.github.io/clay/production/index.html'>link</a>
