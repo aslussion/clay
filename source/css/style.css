@@ -1,0 +1,672 @@
+body {
+	padding-bottom: 15px;
+	font: 14px/24px "Poppins", sans-serif;
+	color: #4C4C4C;
+}
+
+.container {
+	padding: 0 20px;
+}
+
+.fullWidth {
+	margin: 0 -20px;
+}
+
+h1 {
+	margin-bottom: 19px;
+	font: bold 28px/39px "Poppins", sans-serif;
+	color: #000;
+}
+
+img {
+	max-width: 100%;
+}
+
+.ttl {
+	margin-bottom: 15px;
+	font: 600 16px/21px "Poppins", sans-serif;
+	color: #000;
+}
+
+.ttlSmall {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font: 500 12px/18px "Poppins", sans-serif;
+	letter-spacing: .2px;
+	color: #000;
+}
+
+.flexed {
+	display: flex;
+	justify-content: space-between;
+}
+
+.headerBcg {
+	margin-bottom: 24px;
+	padding: 6px 0;
+}
+
+.header-logoBlock {
+	text-align: center;
+}
+
+.header-burger {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.header-menu {
+	display: none;
+}
+
+.header-profile {
+	margin-left: 22px;
+}
+
+.footer {
+	display: none;
+}
+
+.logo {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	border: 4px solid;
+	border-radius: 50%;
+	color: #6F36BC;
+	font: bold 12px/41px "Poppins", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.logo:hover {
+	color: #c1a6e5;
+}
+
+.burger {
+	width: 30px;
+	height: 24px;
+	background: url(../images/burger.svg);
+}
+
+.btn {
+	display: block;
+	height: 32px;
+	border: 0;
+	border-radius: 99px;
+	background-color: transparent;
+	text-transform: uppercase;
+	color: #6F36BC;
+	font: 500 12px/29px "Poppins", sans-serif;
+	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	border: 1px solid;
+}
+
+.btn:hover {
+	text-decoration: none;
+	transition: border-radius .5s;
+}
+
+.btn:hover:hover {
+	border-radius: 0;
+}
+
+.btn:active {
+	top: 1px;
+}
+
+.btnRed {
+	display: block;
+	height: 40px;
+	border: 0;
+	border-radius: 99px;
+	background-color: #FF4778;
+	text-transform: uppercase;
+	color: #FFF;
+	font: 500 14px/37px "Poppins", sans-serif;
+	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	line-height: 40px;
+}
+
+.btnRed:hover {
+	text-decoration: none;
+	transition: border-radius .5s;
+}
+
+.btnRed:hover:hover {
+	border-radius: 0;
+}
+
+.btnRed:active {
+	top: 1px;
+}
+
+.linkRed {
+	color: #D83863;
+	text-decoration: none;
+}
+
+.linkRed:hover {
+	text-decoration: underline;
+}
+
+.linkRed--afterTtl {
+	top: -1px;
+	right: 1px;
+}
+
+.withImg-img {
+	top: 2px;
+	margin-left: 10px;
+}
+
+.imgMain {
+	display: block;
+	margin: 0 auto 26px;
+}
+
+.textInfo {
+	margin-bottom: 34px;
+}
+
+.campaign {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 23px;
+	font: 12px/17px "Poppins", sans-serif;
+}
+
+.campaign-item--right {
+	text-align: right;
+}
+
+.campaign-ttl, .campaign-bold {
+	font: bold 14px/16px "Poppins", sans-serif;
+	color: #000;
+}
+
+.campaign-ttl {
+	padding: 2px 0 3px;
+}
+
+.campaign-small {
+	padding: 5px 0 3px;
+	font: 500 10px/13px "Poppins", sans-serif;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+.donation {
+	margin-bottom: 32px;
+	font: 12px/15px "Poppins", sans-serif;
+}
+
+.donation-sum {
+	font: bold 28px "Poppins", sans-serif;
+	letter-spacing: .5px;
+	color: #000;
+}
+
+.donation-progress {
+	margin: 11px 0 9px;
+}
+
+.donation-bold {
+	font-weight: 500;
+}
+
+.donation-goal {
+	letter-spacing: .2px;
+}
+
+.donationProgress {
+	height: 7px;
+	border-radius: 99px;
+	background: #F0F0F0;
+}
+
+.donationProgress-success {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 99px;
+	background: #2ACBA5;
+}
+
+.donate {
+	margin-bottom: 22px;
+}
+
+.activeButtons {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.activeButtons-item {
+	width: 47.62%;
+}
+
+.events {
+	margin-bottom: 37px;
+}
+
+.calendar {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+	padding: 16px 4px 10px 24px;
+	border-radius: 18px;
+	background: #F3F5FE;
+	font: 12px/15px "Poppins", sans-serif;
+}
+
+.calendar-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.calendar-date {
+	top: -5px;
+	margin-right: 24px;
+	font: bold 28px/30px "Poppins", sans-serif;
+	color: #6F36BC;
+}
+
+.calendar-day {
+	text-align: center;
+	font: 500 10px/13px "Poppins", sans-serif;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.calendar-ttl {
+	font: 500 14px/18px "Poppins", sans-serif;
+	color: #000;
+}
+
+.calendar-text {
+	margin-bottom: 8px;
+}
+
+.calendar-logo {
+	padding-left: 20px;
+	background: no-repeat left;
+}
+
+.calendar-time {
+	background-image: url(../images/time.svg);
+}
+
+.calendar-map {
+	background-image: url(../images/map.svg);
+}
+
+.tabs-head {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 33px;
+}
+
+.tabs-link {
+	width: 33%;
+	text-align: center;
+	text-transform: uppercase;
+	font: 500 12px/52px "Poppins", sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+
+.tabs-link--active:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 6px;
+	background: #BEA4E1;
+}
+
+.tabs-link:hover {
+	color: #BEA4E1;
+}
+
+.tabs-tab:not(.tabs-tab--active) {
+	display: none;
+}
+
+.info {
+	margin-bottom: 51px;
+}
+
+.info-ttl {
+	margin-bottom: 21px;
+}
+
+.info-ttl--large {
+	margin-bottom: 27px;
+}
+
+.filters {
+	margin-bottom: 31px;
+}
+
+.filter {
+	display: inline-block;
+	margin-bottom: 8px;
+	padding: 0 14px;
+	background: #F2EAFE;
+	border-radius: 100px;
+	color: #6F36BC;
+	text-decoration: none;
+	font: 500 12px/28px "Poppins", sans-serif;
+	word-spacing: 0;
+	white-space: nowrap;
+	transition: border-radius .5s;
+}
+
+.filter:hover {
+	transition: border-radius .5s;
+}
+
+.filter:hover:hover {
+	border-radius: 0;
+}
+
+.filterWrapper {
+	word-spacing: 4px;
+}
+
+@media (min-width: 767px) {
+	.fullWidth {
+		margin: 0;
+	}
+}
+
+@media (min-width: 992px) {
+	body {
+		padding: 0;
+		background: #FAFAFA;
+	}
+
+	.container {
+		margin: 0 auto;
+		max-width: 1143px;
+	}
+
+	h1 {
+		margin-bottom: 32px;
+		font: bold 36px/50px "Poppins", sans-serif;
+	}
+
+	.ttl {
+		margin-bottom: 12px;
+		font: 600 18px/23px "Poppins", sans-serif;
+	}
+
+	.lgHidden {
+		display: none;
+	}
+
+	.header {
+		margin: 0 -7px 0 -10px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.headerBcg {
+		margin-bottom: 64px;
+		padding: 49px 0 50px;
+		border-bottom: 1px solid #ECECEC;
+		background: #FFF;
+	}
+
+	.header-burger {
+		display: none;
+	}
+
+	.header-menu {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	.footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.footer a {
+		color: inherit;
+	}
+
+	.footerBcg {
+		margin-top: 34px;
+		padding: 22px 0 26px;
+		background: #F4F4F4;
+	}
+
+	.footer-item {
+		flex-grow: 1;
+	}
+
+	.footer-item--small {
+		flex-grow: 0;
+		width: 20%;
+	}
+
+	.footer-copyr {
+		padding-left: 3px;
+	}
+
+	.footer-menu {
+		left: -1px;
+	}
+
+	.footer-soc {
+		top: 6px;
+		padding-right: 3px;
+		text-align: right;
+	}
+
+	.footer-socItem {
+		margin-left: 11px;
+	}
+
+	.menu {
+		padding: 0;
+	}
+
+	.menu-item {
+		display: inline-block;
+		margin-right: 40px;
+	}
+
+	.menu-item--right {
+		margin: 0 0 0 20px;
+	}
+
+	.menu-link {
+		letter-spacing: .1px;
+		text-decoration: none;
+	}
+
+	.menu-link:hover, .menu-link--active {
+		color: #000;
+		text-decoration: underline;
+	}
+
+	.menu-link--header {
+		display: inline-block;
+		line-height: 25px;
+		padding: 0 21px;
+		white-space: nowrap;
+	}
+
+	.menu-link--header:hover, .menu-link--header.menu-link--active {
+		border-radius: 60px;
+		background: #FF4778;
+		color: #FFF;
+		text-decoration: none;
+	}
+
+	.menu--header {
+		font-weight: 600;
+		color: #000;
+	}
+
+	.soc {
+		display: inline-block;
+		width: 42px;
+		height: 42px;
+		background: no-repeat center;
+	}
+
+	.soc--f {
+		background-image: url(../images/socF.svg);
+	}
+
+	.soc--t {
+		background-image: url(../images/socT.svg);
+	}
+
+	.soc:hover {
+		opacity: .8;
+	}
+
+	.logo {
+		top: 1px;
+		width: 80px;
+		height: 80px;
+		line-height: 73px;
+		font-size: 24px;
+	}
+
+	.profile {
+		display: inline-block;
+		width: 42px;
+		height: 40px;
+		overflow: hidden;
+	}
+
+	.profile:hover {
+		opacity: .8;
+	}
+
+	.row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.row-item {
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+
+	.row-item--left {
+		width: 65.91%;
+		margin-right: 3.26% !important;
+	}
+
+	.row-item--right {
+		width: 30.83%;
+	}
+
+	.textInfo {
+		padding-right: 4px;
+		margin-bottom: 0;
+	}
+
+	.campaign {
+		margin: 0 -4px 37px -3px;
+		font: 14px/20px "Poppins", sans-serif;
+	}
+
+	.campaign-ttl {
+		padding: 1px 0;
+		font: bold 18px/23px "Poppins", sans-serif;
+	}
+
+	.campaign-bold {
+		font: bold 14px/18px "Poppins", sans-serif;
+		letter-spacing: .1px;
+	}
+
+	.campaign-small {
+		padding-bottom: 5px;
+		font: 500 12px/15px "Poppins", sans-serif;
+	}
+
+	.campaign-middle {
+		font: 12px/15px "Poppins", sans-serif;
+	}
+
+	.donation-bold {
+		letter-spacing: .1px;
+	}
+
+	.donate {
+		margin-bottom: 24px;
+	}
+
+	.activeButtons {
+		margin-bottom: 0;
+	}
+
+	.eventsTabs-events {
+		order: 2;
+	}
+
+	.events {
+		margin-top: 63px;
+	}
+
+	.linkRed--afterTtl {
+		top: -2px;
+		right: 6px;
+	}
+
+	.calendar-ttl {
+		margin-bottom: 7px;
+	}
+
+	.tabs-head {
+		margin-bottom: 49px;
+	}
+
+	.tabs-link {
+		padding-bottom: 2px;
+		line-height: 49px;
+	}
+
+	.info {
+		margin-bottom: 48px;
+	}
+
+	.info-ttl {
+		margin-bottom: 22px;
+	}
+
+	.info-ttl--large {
+		margin-bottom: 25px;
+	}
+
+	.filters {
+		max-width: 350px;
+	}
+}
